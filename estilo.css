@@ -14,10 +14,7 @@ html{
 html,body {
 
     min-height: 100vh;
-    font-family: 100vh,
-    cursive;
-    font-family: 'lobster',
-    cursive;
+    font-family: 'Playfair Display', serif;
 }
 .menu{
     position: fixed;
