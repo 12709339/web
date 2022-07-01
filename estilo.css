@@ -66,6 +66,7 @@ html,body {
     justify-content: space-around;
     flex-direction: row;
     background-color:white;
+    top: 0%;
 }
 .menu a{
 
