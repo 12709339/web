@@ -14,18 +14,21 @@ html{
 html,body {
 
     min-height: 100vh;
-    font-family: 'Playfair Display', serif;
+    font-family: 100vh,
+    cursive;
+    font-family: 'lobster',
+    cursive;
 }
 .menu{
     position: fixed;
     display: flex;
     justify-content: space-around;
     flex-direction: row;
-    background-color: rgb(12, 12, 12);
+    background-color:white;
 }
 .menu a{
 
-    color: #FFF720;
+    color: red;
     padding: 8px;
 }
 
@@ -54,32 +57,75 @@ min-height: 100vh;
 /*color*/
 #intro {
     background-image: linear-gradient(135deg, #ABDCFF 10%, #0396FF 100%);
- 
+    font-size: 25px;
+    font-family: inherit;
 
 }
 
 #quiensoy{
     background-image: linear-gradient(135deg, #FFF6B7 10%, #F6416C 100%);
+    font-size: 25px;
+    font-family: inherit;
+
 }
 
 #cosasfeliz{
     background-image: linear-gradient(135deg, #43CBFF 10%, #9708CC 100%);
+    font-size: 25px;
+    font-family: inherit;
+    
 }
 
-#cosasquemeenojan{
+#cosasenojar{
 
     background-image: linear-gradient(135deg, #F6CEEC 10%, #D939CD 100%);
+    font-size: 25px;
+    font-family: inherit;
+
 }
 
-#autenticidad{
+#unico{
 
     background-image: linear-gradient(135deg, #FFF720 10%, #3CD500 100%);
+    font-size: 25px;
+    font-family: inherit;
 }
+
+#personalidad {
+
+    background-image:radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(70, 217, 252, 1) 100%);
+    font-size: 25px;
+    font-family: inherit;
+}
+
+#inteligenciasmultiples {
+
+    background-image: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+    font-size: 25px;
+    font-family: inherit;
+}
+
+#misvirtudes{
+
+    background-image: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    font-size: 25px;
+    font-family: inherit;
+}
+#mismetas{
+
+    background-image: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(83, 45, 253, 1) 100%);
+    font-size: 25px;
+    font-family: inherit;
+}
+#agradecimientos{
+
+    background-image: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(134, 29, 253, 1) 50%, rgba(252, 176, 69, 1) 100%);
+    font-size: 25px;
+    font-family: inherit;
+}
+
+
 .menu{
 position:fixed;
 
-}
-
-img{
-    width: 80%;
 }
